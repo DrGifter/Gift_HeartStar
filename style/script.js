@@ -8,6 +8,7 @@ window.removeEventListener("click", playMusicOnce);
 window.addEventListener("click", playMusicOnce);
 
 const messages = [
+  "Dr.Gifter"
   "Em là vũ trụ của anh",
   "Tình yêu bất tận giữa các vì sao",
   "Em là ngôi sao sáng nhất",
@@ -286,4 +287,5 @@ setInterval(() => { if (Math.random() < 0.7) createMeteor(); }, 3000);
 
 createHeartStars();
 createBackgroundStars();
+
 animate();
