@@ -8,7 +8,7 @@ window.removeEventListener("click", playMusicOnce);
 window.addEventListener("click", playMusicOnce);
 
 const messages = [
-  "Dr.Gifter"
+  "Dr.Gifter",
   "Em là vũ trụ của anh",
   "Tình yêu bất tận giữa các vì sao",
   "Em là ngôi sao sáng nhất",
@@ -289,3 +289,4 @@ createHeartStars();
 createBackgroundStars();
 
 animate();
+
